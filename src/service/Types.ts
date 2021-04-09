@@ -1,4 +1,4 @@
-export enum LoginTypes {
+export enum LoginType {
   EMAIL = 'email',
   PHONE_NUMBER = 'phone',
   GOOGLE = 'google',

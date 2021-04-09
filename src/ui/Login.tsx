@@ -1,24 +1,43 @@
-import React from 'react'
-import { Button, StyleSheet, Text, View } from 'react-native'
-
-import { addOne } from './index'
-
 const Login = () => {
-  const [count, setCount] = React.useState(0)
-
-  return (
-    <View style={styles.container}>
-      <Text>You pressed {count} times</Text>
-      <Button onPress={() => setCount(addOne(count))} title='Press Me' />
-    </View>
-  )
+  // const {
+  //   control,
+  //   handleSubmit,
+  //   formState: { errors },
+  // } = useForm()
+  // const onSubmit = (data: any) => console.log(data)
+  // return (
+  //   <View style={styles.container}>
+  //     <Controller
+  //       control={control}
+  //       render={({ field: { onBlur, onChange, value } }) => (
+  //         <TextInput
+  //           style={styles.input}
+  //           onBlur={onBlur}
+  //           onChangeText={onChange}
+  //           value={value}
+  //         />
+  //       )}
+  //       name={'firstName'}
+  //       rules={{ required: true, pattern: DefaultValidationPattern.password }}
+  //     />
+  //     <Text>{errors.toString()}</Text>
+  //     <Button title={'submit'} onPress={handleSubmit(onSubmit)} />
+  //   </View>
+  // )
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 200,
-  },
-})
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'white',
+//     justifyContent: 'center',
+//     padding: 20,
+//   },
+//   input: {
+//     marginVertical: 20,
+//     height: 50,
+//     borderWidth: 1,
+//     borderColor: 'black',
+//     color: 'black',
+//   },
+// })
 export default Login

@@ -50,7 +50,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-hook-form": "^7.0.4"
   },
   "jest": {
     "preset": "react-native",
